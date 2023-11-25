@@ -29,8 +29,8 @@ const ExpenseTrackerHome = () => {
 
   return (
     <>
-      <h2 style={{ backgroundColor: "gray", color: "white", padding: "20px" }}>
-        Expense Application
+      <h2 style={{ backgroundColor: "lightgray", color: "yellowgreen", padding: "20px", textAlign:"center" }}>
+        Expense Tracker
       </h2>
       <Container>
         <ExpenseCreator

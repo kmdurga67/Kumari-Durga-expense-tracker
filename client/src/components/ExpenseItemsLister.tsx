@@ -41,9 +41,8 @@ const ExpenseItemsLister = ({ expenseItems }: ExpenseItemsListerModel) => {
 
   return (
     <div style={{marginTop:"5%"}}>
-      <h3>Expense Tracker</h3>
       <Table striped bordered hover>
-        <thead>
+        <thead style={{backgroundColor:"black", color:"white"}}>
           <tr>
             <th>#</th>
             <th>Date</th>
